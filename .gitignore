@@ -1,0 +1,28 @@
+1cat > ~/r3kt/.gitignore << 'EOF'
+# Результаты сканирований
+loot/
+sessions/
+*.log
+
+# Wordlists (большие файлы)
+wordlists/
+
+# Инструменты (скачиваются при установке)
+tools/
+post/agents/
+post/linpeas.sh
+post/winPEASx64.exe
+post/pspy64
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+
+# Временные файлы
+*.tmp
+*.bak
+users_test.txt
+passwords_test.txt
+aliases.sh
+EOF
